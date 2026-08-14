@@ -1,4 +1,3 @@
-package sortingarray;
 import java.util.*;
 public class basicsort {
     public static void bubblesort(int sorta[]){
