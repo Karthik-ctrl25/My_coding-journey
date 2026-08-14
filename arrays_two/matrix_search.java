@@ -1,6 +1,7 @@
-import java.util.*;
-public class creation {
+import java.util.Scanner;
 
+public class matrix_search {
+    
     //for searching any element in arrray 
     public static boolean searchinarr(int matrix[][],int key){
     for(int i=0;i<matrix.length;i++){
@@ -14,7 +15,6 @@ public class creation {
         }
         System.out.println("the key is not found ");
         return false;
-    
             }
     public static void main(String[] args) {
         int matrix[][]=new int [3][3];
@@ -24,17 +24,10 @@ public class creation {
                 matrix[i][j]=sc.nextInt();
    }
 }
-                //output
-                for(int i=0;i<matrix.length;i++){
-            for(int j=0;j<matrix.length;j++){
-                System.out.print(matrix[i] [j]+" ");
-            }
-            System.out.println();
-        }
-
         System.out.println("searching a key in matrix");
         //calling of function 
         searchinarr(matrix, 4);
         
     }
 }
+
