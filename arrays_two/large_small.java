@@ -1,5 +1,6 @@
 import java.util.*;
 public class large_small {
+    //TO FIMD THE LARGEST AND SMALLEST FUNCTION 
     public static int largeorsmall(int mar[][]){
         int small=Integer.MAX_VALUE;
         int large=Integer.MIN_VALUE;
@@ -27,7 +28,6 @@ public class large_small {
             }
         }
 //the calling fucntion
-
 System.out.println("the largest elemnt is "+ largeorsmall(mar));
     }
 }
